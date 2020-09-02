@@ -1,0 +1,8 @@
+
+/.idea/
+*.iml
+/scratch-dir
+
+
+terraform-run.sh
+aws_credentials
