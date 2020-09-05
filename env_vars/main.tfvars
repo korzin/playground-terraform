@@ -1,6 +1,7 @@
-aws_account_id = "korzin" #TODO
+cred_file_path = "env_vars/aws_credentials"
+
 aws_region = "us-east-1"
-vpc_cidr = "10.30.0.0/16"
+vpc_cidr_block = "10.30.0.0/16"
 
 av_zones = [
   "us-east-1a",
@@ -14,9 +15,6 @@ public_subnets = [
   "10.30.20.0/24",
   "10.30.30.0/24"]
 
-aws_account_ids = {
-  test: "korzin"
-  #TODO
-}
+
 
 image_id = "???" #TODO
