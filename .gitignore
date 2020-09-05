@@ -2,7 +2,6 @@
 /.idea/
 *.iml
 /scratch-dir
-
-
 terraform-run.sh
-env_vars/s3_backend_aws_credentials
+env_vars/aws_credentials
+.terraform
