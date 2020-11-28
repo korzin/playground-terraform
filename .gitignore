@@ -2,6 +2,5 @@
 /.idea/
 *.iml
 /.scratch
-terraform-run.sh
-env_vars/aws_credentials
 .terraform
+*.tfstate
