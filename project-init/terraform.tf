@@ -1,6 +1,7 @@
 provider aws {
-  profile = "tfplayground-own"
   region  = "us-east-1"
+  # to get aws private/public keys
+  profile = "tfplayground-own"
 }
 
 resource aws_s3_bucket terraform_state_s3_bucket {

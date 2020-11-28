@@ -5,12 +5,6 @@ terraform {
     region = "us-east-1"
     shared_credentials_file = "env_vars/aws_credentials"
   }
-
-  required_providers {
-    aws = {
-      source = "hashicorp/aws"
-    }
-  }
 }
 //
 //resource "aws_vpc" "main" {
