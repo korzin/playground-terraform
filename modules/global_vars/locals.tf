@@ -11,4 +11,8 @@ locals {
   shared_tags = {
     Project = "Terraform_Playground"
   }
+
+  development_vpc = {
+    cidr = "10.10.0.0/16"
+  }
 }
